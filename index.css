@@ -11,10 +11,34 @@
     font-family: Playfair Display;
     text-align: center;
     font-size: 40px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    margin: 0px;
 }
+
+.titulo h1{
+    padding: 0px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+}
+
+.parrafo1{
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.img{
+    width: 500px;
+    height: auto;
+    display: flex;
+    /* style="width: 600px; border-radius: 5px; opacity:85%;  " */
+}
+
+.img img {    
+    border: solid 5px blue;    
+    width: 600px;
+}
+
+/*  */
+
 
 .todo{
     background-color: #63726F;
@@ -50,8 +74,4 @@
     border: solid 0;
     text-align: center;
     background-color: #63726F;
-}
-
-.parrafo1{
-    text-align: center;
 }
