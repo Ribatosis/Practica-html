@@ -1,11 +1,57 @@
 
 
 *{
-    background-color: #A4A6A6;
+    background-color: #f0f0f0;
+    
+} body { 
+    margin: 0%;
 }
 
-h1{
+.titulo{
     font-family: Playfair Display;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin: 0px;
+}
+
+.todo{
+    background-color: #63726F;
+    padding: 13px;
+    position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+}
+
+.horizontal-list a{
+    padding: 0;
+    text-decoration: none; 
+    font-family: "Work Sans", sans-serif;
+    color: black;
+    background-color: #63726F;
+    
+}
+
+.horizontal-list li {
+    display: inline;
+    font-size: 23px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    background-color: #63726F;
+}
+
+.menu{
+    padding-left: 80px;
+    padding-right: 80px;
+    border: solid 0;
+    text-align: center;
+    background-color: #63726F;
+}
+
+.parrafo1{
+    text-align: center;
 }
